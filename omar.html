@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نموذج المستخدم</title>
+</head>
+<body>
+    <form>
+        <label for="username">User Name: </label>
+        <input type="text" id="username" name="username" required maxlength="10" placeholder="User Name"> <br><br>
+
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" required placeholder="Password"> <br><br>
+
+        <label for="age">Age: </label>
+        <input type="number" id="age" name="age" required placeholder="Age" min="18" max="50"> <br><br>
+
+        <label for="birthdate">Birth Date:</label>
+        <input type="date" id="birthdate" name="birthdate" required min="2000-01-01" max="2007-12-31" placeholder="Select a date between 2000 and 2007"> <br><br>
+
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
